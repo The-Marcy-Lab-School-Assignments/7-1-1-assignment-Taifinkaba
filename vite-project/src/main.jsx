@@ -9,7 +9,9 @@ import { BrowserRouter } from 'react-router-dom';
 /** FEEDBACK: Make sure to wrap BrowserRouter around App! */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <BrowserRouter>
   <RobotProvider>
     <App />
   </RobotProvider>
+  </BrowserRouter>
 );
