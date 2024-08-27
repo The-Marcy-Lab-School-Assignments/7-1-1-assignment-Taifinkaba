@@ -36,12 +36,12 @@ Score: 0/6
 
 **React Fundamentals**
 - [ ] Uses `BrowserRouter` in `main.jsx` to provide routing to the entire `App`
-- [ ] Uses `Routes` in `App.jsx` to render multiple Routes
-- [ ] Uses `Route` to render a component based on the URL
-- [ ] Uses `Link` to render a component that redirects the user upon click
-- [ ] Uses `useParams` to get parts of dynamic URL
-- [ ] Uses `useNavigate` to programmatically redirect the user
-Score: 0/6
+- [x] Uses `Routes` in `App.jsx` to render multiple Routes
+- [x] Uses `Route` to render a component based on the URL
+- [x] Uses `Link` to render a component that redirects the user upon click
+- [x] Uses `useParams` to get parts of dynamic URL
+- [x] Uses `useNavigate` to programmatically redirect the user
+Score: 5/6
 
 **Miscellaneous**
 - [x] Props are extracted in child components using destructuring

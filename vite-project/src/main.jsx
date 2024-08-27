@@ -4,8 +4,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import RobotProvider from './context/RobotProvider'
+import { BrowserRouter } from 'react-router-dom';
 
-/** FEEDBACK: Missing the BrowserRouter here! Make sure to import it and then wrap it around App! */
+/** FEEDBACK: Make sure to wrap BrowserRouter around App! */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <RobotProvider>
