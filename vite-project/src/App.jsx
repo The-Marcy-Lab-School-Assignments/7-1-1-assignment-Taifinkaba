@@ -6,7 +6,7 @@ import BotPage from './pages/BotsPage'
 // TODO: import Routes and Route
 
 const App = () => {
-
+  /** FEEDBACK: Follow the following directions to help! */
   // TODO: Render Routes with a Route for:
   // - BotPage when the URL matches "/"
   // - BotSpecsPage when the URL matches "/robots/:id"
