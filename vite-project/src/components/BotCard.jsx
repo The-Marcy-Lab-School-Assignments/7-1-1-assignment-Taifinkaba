@@ -19,6 +19,7 @@ const BotClassIcon = (bot_class) => {
 // - Do NOT use a <Link> component to accomplish this. Use the `useNavigate` hook instead.
 
 const BotCard = ({ bot }) => {
+  /** FEEDBACK: You forgot to invoke the hook useNavigate()! */
   const navigate = useNavigate;
 
   const handleClick = () => {
