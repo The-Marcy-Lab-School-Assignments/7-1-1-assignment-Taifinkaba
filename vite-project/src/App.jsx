@@ -3,8 +3,9 @@ import BotSpecsPage from './pages/BotSpecsPage'
 import NotFoundPage from './pages/NotFoundPage'
 import BotPage from './pages/BotsPage'
 
-import {Routes,Route} from 'react-router-dom'
 // TODO: import Routes and Route
+import {Routes,Route} from 'react-router-dom'
+import React from 'react'
 
 const App = () => {
 

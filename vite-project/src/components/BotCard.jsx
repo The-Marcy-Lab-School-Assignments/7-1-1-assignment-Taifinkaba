@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import React from "react";
 
 const BotClassIcon = (bot_class) => {
   switch (bot_class) {
@@ -20,7 +21,7 @@ const BotClassIcon = (bot_class) => {
 
 const BotCard = ({ bot }) => {
   /** FEEDBACK: You forgot to invoke the hook useNavigate()! */
-  const navigate = useNavigate;
+  const navigate = useNavigate();
 
   const handleClick = () => {
     console.log(`take me to robot ${bot.id}`);
